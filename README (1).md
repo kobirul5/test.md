@@ -51,6 +51,7 @@ export const socialLogin = async (email: string, name?: string, fcmToken?: strin
       });
     }
 
+
     const accessToken = jwtHelpers.generateToken(
       {
         id: user.id,
